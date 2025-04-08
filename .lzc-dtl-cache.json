@@ -1,0 +1,33 @@
+{
+  "name": "LibreTV",
+  "package": "cloud.lazycat.app.libretv",
+  "description": "免费在线视频搜索与观看平台",
+  "homepage": "https://github.com/bestZwei/LibreTV",
+  "author": "bestZwei",
+  "app_features": [
+    "public_path"
+  ],
+  "subdomain": "libretv",
+  "version": "0.0.1",
+  "public_paths": [
+    "/"
+  ],
+  "iconPath": "icon.png",
+  "composePath": "docker-compose.yml",
+  "unsupported_platforms": [],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "libretv_8899_80": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_bestzwei_libretv_latest": {
+    "originalImage": "bestzwei/libretv:latest",
+    "pushTarget": "lazycat",
+    "newImageName": "registry.lazycat.cloud/czyt/bestzwei/libretv:a381f87b09cb7b86",
+    "timestamp": "2025-04-08T12:53:42.912Z"
+  }
+}

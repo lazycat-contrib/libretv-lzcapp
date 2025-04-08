@@ -1,0 +1,8 @@
+version: '3'
+services:
+  libretv:
+    image: bestzwei/libretv:latest
+    container_name: libretv
+    ports:
+      - "8899:80"
+    restart: unless-stopped
