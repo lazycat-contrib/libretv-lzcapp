@@ -15,7 +15,7 @@ application:
   public_path:
     - /
   routes:
-    - /=http://libretv:80/
+    - /=http://libretv:8080/
 services:
   libretv:
-    image: registry.lazycat.cloud/czyt/bestzwei/libretv:9fa98487d85b2709
+    image: registry.lazycat.cloud/czyt/bestzwei/libretv:5005c25449b528c3
