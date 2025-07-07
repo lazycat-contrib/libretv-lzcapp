@@ -19,4 +19,4 @@ application:
 services:
     libretv:
         # bestzwei/libretv:latest
-        image: https://coco.edu.deal:27908/s/default/af2c2a1b0775eea9d1dd49ed7781eed7
+        image: registry.lazycat.cloud/czyt/bestzwei/libretv:1641c970b227ddaa
