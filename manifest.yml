@@ -1,7 +1,7 @@
 lzc-sdk-version: "0.1"
 name: LibreTV
 package: cloud.lazycat.app.libretv
-version: 0.0.8
+version: 0.0.9
 description: 免费在线视频搜索与观看平台
 homepage: https://github.com/bestZwei/LibreTV
 author: bestZwei
@@ -19,4 +19,4 @@ application:
 services:
     libretv:
         # bestzwei/libretv:latest
-        image: registry.lazycat.cloud/czyt/bestzwei/libretv:c13c2c4abb77ab3f
+        image: https://coco.edu.deal:27908/s/default/af2c2a1b0775eea9d1dd49ed7781eed7
