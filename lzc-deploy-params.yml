@@ -1,0 +1,24 @@
+params:
+  - id: enable_auth
+    type: bool
+    name: "enable password auth"
+    description: "enable password auth"
+    default_value: false
+
+  - id: access_password
+    type: string
+    name: "acess password"
+    description: "access password"
+    optional: true
+
+ 
+
+locales:
+  zh:
+    enable_auth:
+      name: "是否启用密码访问"
+      description: "是否启用密码访问，启用后，用户需要输入密码才能访问本应用"
+      
+    access_password:
+      name: "访问密码"
+      description: "应用的访问密码"
