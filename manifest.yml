@@ -1,6 +1,6 @@
 name: LibreTV
 package: cloud.lazycat.app.libretv
-version: 0.0.10
+version: 0.0.11
 min_os_version: 1.3.8
 description: 免费在线视频搜索与观看平台
 homepage: https://github.com/bestZwei/LibreTV
@@ -15,7 +15,7 @@ application:
 services:
     libretv:
         # bestzwei/libretv:latest
-        image: registry.lazycat.cloud/czyt/bestzwei/libretv:49e470c3b3cb79cc
+        image: registry.lazycat.cloud/czyt/bestzwei/libretv:56e3bdc255b6c63f
         environment:
  {{if .U.enable_auth}}
           - PASSWORD={{.U.access_password}}
