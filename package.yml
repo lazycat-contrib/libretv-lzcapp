@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.libretv
+version: 0.0.14
+name: LibreTV
+description: 免费在线视频搜索与观看平台
+min_os_version: "1.5.0"
+homepage: https://github.com/bestZwei/LibreTV
+author: bestZwei
+locales:
+  zh:
+    name: LibreTV
+    description: 免费在线视频搜索与观看平台
+  en:
+    name: LibreTV
+    description: Free online video search and streaming platform

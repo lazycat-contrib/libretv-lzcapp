@@ -1,0 +1,17 @@
+application:
+    subdomain: libretv
+    background_task: false
+    public_path:
+        - /
+    upstreams:
+        - location: /
+          backend: http://libretv:8080/
+
+services:
+    libretv:
+        # upstream: ghcr.io/bestzwei/libretv:2.0.1
+        image: ghcr.io/bestzwei/libretv:2.0.1
+        environment:
+ {{if .U.enable_auth}}
+          - PASSWORD={{.U.access_password}}
+{{end}}
