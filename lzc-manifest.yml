@@ -11,6 +11,7 @@ services:
     # upstream: ghcr.io/bestzwei/libretv:2.0.1
     image: registry.lazycat.cloud/czyt/bestzwei/libretv:4bcfe2637db74d1e
     environment:
+      TZ: Asia/Shanghai
 {{if .U.enable_auth}}
       PASSWORD: "{{.U.access_password}}"
 {{end}}
